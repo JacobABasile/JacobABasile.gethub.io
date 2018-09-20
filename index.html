@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Jacob's Website </title>
+                <style>
+
+            body {
+                background: rgb(125, 198, 205);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+    
+            /* navigation menu */
+            nav {
+                background: rgb(239, 80, 41);
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+                border: 2px solid red;
+                border-radius: 50px 20px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+    
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            .interests header {
+                font-size: 1.25em;
+            }
+                </style>
+    </head>
+    
+    <body>
+        <nav>
+            <header>Jacob's Glorious Website</header>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Portfolio</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <div class="sidebar">
+                
+                <img src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/35162163_1916173151768371_6413334424397545472_n.jpg?_nc_cat=101&oh=3f6730e7efb3b91f10cd7e44ce8651fa&oe=5C1FE3EE">
+            </div>
+            
+            <div class="content">
+                <header>Jacob Basile</header>
+                <p> Student at Chalmette High</p>
+                <section class="interests">
+                    <header>Interests</header>
+                    <ul>
+                        <li>I like computers.</li>
+                        <li>I like Chinese Food.</li>
+                        <li>I like to stream at <a href="https://www.twitch.tv/Tartman">www.twitch.tv/tartman.</a></li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+    </body>
+</html>
